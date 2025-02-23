@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export SECRET_KEY="FGVm9oQkVe63EpzByQ5GkxnVENh318xvvAZj9L9DDtyaQWTka9PTtZZroxt7TI5CeHWR9ClqOyJxKs0znlm9OaHCySvxk4VOWUpZuQoZQSU9eaoPatGjdxHkahRrXFe50cahIg9K50s7YDNFc966caOxi6T8GljLKBvTf0K49Odr4mp9APoh7NVuxaUQSl7HgSLiIsJaCQXuIk9rZ46sUrrmMTYnqMFkJZ8Od9g5Wua8B0F7aV1hyvV8C4kJ935UjwWG8nhNT6mTPzRM4F43Bpf9zgppwAtl5Rwtzd3XpZ7wUgeuszXYEKAc2uIiyxPUWswV4KI4T2lA0SfhMgS6cOPS"
+export DEBUG="False"
+export APP_SETTINGS="config.ProductionConfig"
+export DATABASE_URL="sqlite:///db.sqlite"
+export FLASK_APP="src"
+export FLASK_DEBUG="0"
+export APP_NAME="Safespace"

@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<script src="/static/assets/setup-2fa.js"></script>
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+        <div>
+          <p class="h5 mb-3 fw-normal">Your secret token:</p>
+		  <p>{{ secret }}</p>
+        </div>
+        <p class="h5 mb-3 fw-normal">Instructions:</p>
+          <ul>
+            <li>Download <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US" target="_blank">Google Authenticator</a> on your mobile phone.</li>
+            <li>Set up a new authenticator.</li>
+            <li>Once you have provided the secret, please click <a href="{{ url_for('accounts.verify_two_factor_auth') }}">here.</li>
+          </ul>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

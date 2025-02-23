@@ -1,0 +1,38 @@
+.error {
+	color: red;
+	margin-bottom: 5px;
+	text-align: center;	
+}
+  
+a {
+	text-decoration: none;
+}
+
+.display-qr {
+	width:200px;
+	height:200px;
+}
+
+.display-image {
+	max-height: 300px; 
+	max-width: 100%; 
+	object-fit: contain; 
+	border: 1px solid #ccc; 
+	border-radius: 5px;
+}
+
+.display-text {
+	height:100%;
+	resize:none;
+}
+
+
+#rsa_key_visible {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.masked {
+	-webkit-text-security: disc;
+	/* text-security: disc; */
+}
